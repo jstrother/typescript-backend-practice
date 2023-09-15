@@ -1,5 +1,6 @@
 import express, { NextFunction, Request, Response } from 'express';
 import employeesRouter from './api/employees/Employee.route';
+import reportsRouter from './api/reports/Reports.route';
 
 const PORT = 3000;
 
@@ -8,6 +9,7 @@ export class Server {
 
   startServer() {
     this.app.use('/employees', employeesRouter);
+    this.app.use('/reports', reportsRouter);
 
     // this prints any errors to the console instead of in the response
     this.app.use((error: Error, req: Request, res: Response, next: NextFunction) => {

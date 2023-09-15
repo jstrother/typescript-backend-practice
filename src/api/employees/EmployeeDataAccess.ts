@@ -1,7 +1,7 @@
 import { AwesomeDB } from "../../data/AwesomeDB";
 import { Employee } from "./Employee.model";
 
-export class EmployeeDatAccess {
+export class EmployeeDataAccess {
   private employeesDataBase = new AwesomeDB<Employee>();
 
   public async addEmployee(employee: Employee) {

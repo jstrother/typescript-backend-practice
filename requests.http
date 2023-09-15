@@ -14,3 +14,7 @@ Content-Type: application/json
   "position": "Manager",
   "salary": 100000
 }
+###
+
+GET {{url}}/reports/salaries
+###
