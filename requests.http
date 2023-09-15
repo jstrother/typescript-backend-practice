@@ -10,8 +10,7 @@ POST {{url}}/employees
 Content-Type: application/json
 
 {
-  "name": "Mike",
-  "position": "Engineer",
-  "salary": 100000,
-  "other": "stuff"
+  "name": "Joe",
+  "position": "Manager",
+  "salary": 100000
 }
