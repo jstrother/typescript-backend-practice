@@ -1,5 +1,5 @@
 import express, {Request, Response} from 'express';
-import employeesRouter from './api/employees/employee.route';
+import employeesRouter from './api/employees/Employee.route';
 
 const PORT = 3000;
 
