@@ -1,11 +1,20 @@
 {
   "name": "typescript-backend-practice",
   "version": "1.0.0",
-  "description": "This follows the same section of Alex Horea's Typescript 5 course on Udemy.",
+  "description": "This follows with the same section of Alex Horea's Typescript 5 course on Udemy.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node ./src/server.ts"
   },
   "author": "Jim Strother",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.0.0-beta.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.6.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
 }
